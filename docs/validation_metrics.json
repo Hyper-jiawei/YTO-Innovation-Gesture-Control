@@ -1,0 +1,59 @@
+{
+  "labels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "I Love U",
+    "ok"
+  ],
+  "split": "temporal",
+  "evaluated_on": "held_out_temporal_test",
+  "train_count": 775,
+  "validation_count": 135,
+  "test_count": 260,
+  "excluded_count": 124,
+  "confidence_threshold": 0.85,
+  "accepted_coverage": 0.9653846153846154,
+  "accepted_accuracy": 0.9920318725099602,
+  "note": "Temporal split is within the same operator/class/hand; not independent person/session validation. Test unused for early stopping.",
+  "accuracy": 0.9884615384615385,
+  "augmentation": {
+    "copies_per_training_sample": 4,
+    "original_training_count": 775,
+    "effective_training_count": 3875,
+    "added_count": 3100,
+    "seed": 42,
+    "validation_augmented": false,
+    "test_augmented": false
+  },
+  "yolo_benchmark": {
+    "model": "yolo12n.pt",
+    "device": "cuda:0",
+    "input_size": [
+      1080,
+      810
+    ],
+    "samples": 12,
+    "startup_prewarm_ms": 4469.84449995216,
+    "first_real_inference_ms": 13.864400039892644,
+    "first_real_result_after_mode_entry_ms": 108.99999999674037,
+    "steady_median_ms": 13.557699974626303,
+    "steady_mean_ms": 13.761108333710581,
+    "cached_selection_median_ms": 0.1720499712973833,
+    "cached_selection_max_ms": 0.36259996704757214,
+    "synthetic_warmup_never_published": true,
+    "mode_switch_clears_cache": true,
+    "validation": "Real YOLO12 CUDA on bundled bus.jpg after startup warmup; excludes camera, MediaPipe and UI latency."
+  },
+  "model_sha256": {
+    "digits.pt": "e9f3661a59f758eaf7dc63ced8d816053799f60811cbbae66c91b9affeed38e5",
+    "gesture_recognizer.task": "97952348cf6a6a4915c2ea1496b4b37ebabc50cbbf80571435643c455f2b0482",
+    "yolo12n.pt": "419ff3dca37d69bacc93a50fa0c186a1c6f9fe62fae0f108b0872829689e9ca6"
+  }
+}

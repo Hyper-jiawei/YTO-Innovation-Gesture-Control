@@ -1,0 +1,32 @@
+# Local packages, generated outputs and private capture data
+.deps/
+.extras/
+__pycache__/
+*.py[cod]
+outputs/
+data/
+Ultralytics/
+runs/
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+.vscode/
+.idea/
+# Legacy local documents are retained locally; current public guides are allowlisted below.
+docs/*
+!docs/assets/
+!docs/DEPLOYMENT.md
+!docs/TRAINING.md
+!docs/VALIDATION.md
+!docs/validation_metrics.json
+# Publish only current models
+models/*
+!models/digits.pt
+!models/gesture_recognizer.task
+!models/yolo12n.pt
+!models/gesture_labels.json
+# Machine-specific agent routing stays local
+AGENTS.md
