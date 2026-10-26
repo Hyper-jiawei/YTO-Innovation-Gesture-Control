@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/yto-logo.jpg" alt="圆通速递 YTO" width="186">
+  <img src="docs/assets/yto.png" alt="圆通速递 YTO" width="186">
 </p>
 
 <h1 align="center">YTO创新大赛-手势隔空操作系统</h1>
